@@ -5,6 +5,20 @@ body {
   line-height: 1.2;
 }
 
+/* Add this to your existing CSS */
+
+a {
+  color: white;      /* Sets the text color of links to white */
+  text-decoration: underline;  /* Underlines the text */
+}
+
+/* Optional: To change the appearance of links on hover */
+a:hover {
+  color: #cccccc; /* Lighter shade of white for hover effect */
+  /* You can add more styles for hover state if needed */
+}
+
+
 h1 {
   margin-top: 0px;
   margin-bottom: 0.25em;
